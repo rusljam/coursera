@@ -1,0 +1,47 @@
+
+Element p {color:blue;}
+
+Class:
+class .blue{color:blue;}
+<p class="blue"></p>
+<div style="blue"</div>
+
+ID selector:
+id selector #sel_name_id{color:blue;}
+<p><p/>
+<div id="sel_name_id"</div>
+
+
+Grouping "and" Lecture 13 
+отже в даному випадку обираються елементи які належать селектору до коми, i також селектору після коми тобто обом селекторам.
+div, .blue{color:blue;}
+
+Every p that has class="big"
+p.big {
+    font-size:20 px;
+  }
+
+Every p that is a direct child of article
+article > p {
+    color: blue;
+  }
+
+
+Every element with class="colored" that is a direct child of article element
+article > .colored {
+    color: blue;
+  }
+
+Every p that is  inside (at any level) of article
+article  p {
+    color: blue;
+  }
+
+Every p that is  inside (at any level) an element with class="colored"
+.colored p {
+    color: blue;
+  }
+
+  ul, ol, links, images, links to parts of the text, meta viewport, charset, keywords
+
+
